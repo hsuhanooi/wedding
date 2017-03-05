@@ -1,0 +1,60 @@
+.story-middle {
+  width: 50%;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.story {
+  width: 100%;
+}
+
+.our-story-container {
+  background-image: url('./images/2017-01-24_23-54-51_000.jpeg');
+}
+
+.best-friends-container {
+  background-image: url('./images/2017-01-22_14-04-52_870.jpeg');
+}
+
+.proposed-container {
+  background-image: url('./images/2017-01-22_14-04-52_870.jpeg');
+}
+
+.said-yes-container {
+  background-image: url('./images/2017-01-22_14-04-52_870.jpeg');
+}
+
+.story-text {
+  font-size: 50px;
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+img.modal-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.modal-caption {
+  margin: 10px 0 0 10px;
+}
+.modal-close {
+  margin-bottom: 10px;
+}
+
+.image-library {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.img-library {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+

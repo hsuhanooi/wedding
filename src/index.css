@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+  height: 80px;
+  padding: 20px;
+  color: black;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.nav-pills > li > a {
+  color: black;
+  font-size: 12px;
+}
+
+.story-container {
+  background-size:     cover; 
+  background-repeat:   no-repeat;
+  background-position: center center;  
+  height: 1000px;
+  width: 100%;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+    font-family: 'Overpass';font-size: 14px;
+}
+
+.logo {
+  font-size: 16px;
+  margin-top: 6px;
+}
