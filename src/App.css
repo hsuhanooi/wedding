@@ -8,6 +8,10 @@
   width: 100%;
 }
 
+.test:not(.nohover):hover {  
+  border: 1px solid red; 
+}
+
 .our-story-container {
   background-image: url('./images/2017-01-24_23-54-51_000.jpeg');
 }

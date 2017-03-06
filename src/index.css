@@ -37,10 +37,18 @@
 }
 
 body {
-    font-family: 'Overpass';font-size: 14px;
+  font-family: 'Overpass';font-size: 14px;
 }
 
 .logo {
   font-size: 16px;
   margin-top: 6px;
+}
+
+a.logo {
+  color: black;
+}
+
+a.logo:hover {
+  text-decoration: none;
 }
