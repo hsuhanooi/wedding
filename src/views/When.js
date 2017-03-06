@@ -40,8 +40,8 @@ class When extends Component {
                    Seattle, WA 98105
                 </p>
                 <div>
-                  <a target="_blank" href='https://www.google.com/maps/place/Red+Square/@47.6556206,-122.3101974,17.67z/data=!4m12!1m6!3m5!1s0x0:0x5d9e020c09e1ee7c!2sGrieg+Garden!8m2!3d47.6561909!4d-122.3066153!3m4!1s0x0:0x88f353385b97eddc!8m2!3d47.6559898!4d-122.3094633'>
-                    Parking in C1-C6 Underground
+                  <a target="_blank" href='https://www.google.com/maps/place/Central+Plaza+Garage/@47.6568034,-122.3139718,17z/data=!3m1!4b1!4m5!3m4!1s0x549014f33ae8bc15:0xd16a184637e1d629!8m2!3d47.6567998!4d-122.3117778'>
+                    Parking in the Central Plaza Garage
                   </a>
                 </div>
                 <div>
@@ -56,7 +56,7 @@ class When extends Component {
                   Cocktails & Reception
                 </h4>
                 <p className="location">
-                  The Foundry in SODO
+                  The Foundry by Herban Feast (SODO)
                 </p>
                 <p>
                   4130 1st Avenue South<br/>

@@ -1,4 +1,4 @@
 #!/bin/bash
 
-rsync -r --exclude='node_modules' ../tiny-hh-wedding root@milotowers.com:/root/
-ssh root@milotowers.com "cd /root; npm run build"
+rsync -r --exclude='node_modules' ../tiny-hh-wedding root@50.116.9.133:/root/
+ssh root@50.116.9.133 "cd /root/tiny-hh-wedding; npm install; npm run build"
