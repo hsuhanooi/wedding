@@ -28,8 +28,16 @@
   background-image: url('./images/2017-01-22_14-04-52_870.jpeg');
 }
 
+.date-container {
+  background-image: url('./images/2017-01-22_14-04-52_870.jpeg');
+}
+
+.where-container {
+  background-image: url('./images/2017-01-24_23-54-51_000.jpeg');
+}
+
 .story-text {
-  font-size: 50px;
+  font-size: 100px;
   color: white;
 }
 

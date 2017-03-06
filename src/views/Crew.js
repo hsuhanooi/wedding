@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Registry extends Component {
+class Crew extends Component {
   render() {
     return (
       <div>
@@ -10,4 +10,4 @@ class Registry extends Component {
   }
 }
 
-export default Registry;
+export default Crew;

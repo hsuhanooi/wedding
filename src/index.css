@@ -52,3 +52,21 @@ a.logo {
 a.logo:hover {
   text-decoration: none;
 }
+
+p.time {
+  margin-bottom: 20px;
+}
+
+p.location {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.nav-pills > li > a.greyed-out {
+  color: LightGray;
+}
+
+div.location {
+  height: 160px;
+  margin-left: 20px;
+}
