@@ -57,15 +57,8 @@ class App extends Component {
         <div className="container story-middle">
           <div>
             <h2 className="story-middle-header">
-              We met in Hong Kong Bistro...
+              Coming Soon...
             </h2>
-          </div>
-          <div>
-            <p className="story-middle-text">
-              Our mutual friends were thinking let's go play soccer when it's really cold
-              outside. Hsu Han was sad and thinking about Zelda while Tina was on a 
-              trip to Lisbon.
-            </p>
           </div>
         </div>
         <div className="centered container story-container best-friends-container">
