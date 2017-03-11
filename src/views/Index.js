@@ -61,28 +61,6 @@ class App extends Component {
             </h2>
           </div>
         </div>
-        <div className="centered container story-container best-friends-container">
-          <p className="story-text">BEST FRIENDS</p>
-        </div>
-        <div className="container">
-          <div className="image-library">
-            <img src={LogoImg} onClick={this.openModal} className="img-library" />
-            {modal}
-            <img src={LogoImg} className="img-library" />
-            <img src={LogoImg} className="img-library" />
-            <img src={LogoImg} className="img-library" />
-            <img src={LogoImg} className="img-library" />
-            <img src={LogoImg} className="img-library" />
-            <img src={LogoImg} className="img-library" />
-            <img src={LogoImg} className="img-library" />
-          </div>
-        </div>
-        <div className="centered container story-container proposed-container">
-          <p className="story-text">HE PROPOSED</p>
-        </div>
-        <div className="centered container story-container said-yes-container">
-          <p className="story-text">SHE SAID MAYBE...</p>
-        </div>
       </div>
     );
   }

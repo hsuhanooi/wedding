@@ -8,12 +8,6 @@ class When extends Component {
   render() {
     return (
       <div>
-        <div className="centered container story-container date-container">
-          <p className="story-text">AUGUST 19, 2017</p>
-        </div>
-        <div className="centered container story-container where-container">
-          <p className="story-text">SEATTLE</p>
-        </div>
         <div className="container story-middle">
           <div>
             <h2 className="story-middle-header">
