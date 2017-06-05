@@ -7,8 +7,8 @@ import OtherImg from '../images/2017-01-22_14-04-52_870.jpeg'
 class When extends Component {
   render() {
     return (
-      <div>
-        <div className="container story-middle">
+      <div className="container">
+        <div>
           <div>
             <h2 className="story-middle-header">
               Ceremony and Reception

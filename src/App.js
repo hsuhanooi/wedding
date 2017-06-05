@@ -23,10 +23,10 @@ function MainLayout({ children }) {
           </div>
           <ul className="nav nav-pills float-right">
             <li role="presentation"><Link to='/'>OUR STORY</Link></li>
-            <li role="presentation"><Link className="greyed-out" to='/crew'>THE CREW</Link></li>
+            <li role="presentation"><Link className="" to='/crew'>THE CREW</Link></li>
             <li role="presentation"><Link to='/when'>WHEN & WHERE</Link></li>
-            <li role="presentation"><Link className="greyed-out" to='/registry'>REGISTRY</Link></li>
-            <li role="presentation"><Link className="greyed-out" to='/rsvp'>RSVP</Link></li>
+            <li role="presentation"><Link className="" to='/registry'>REGISTRY</Link></li>
+            <li role="presentation"><Link className="" to='/rsvp'>RSVP</Link></li>
           </ul>
         </div>
         {children}
