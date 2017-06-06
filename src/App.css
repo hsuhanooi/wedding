@@ -17,23 +17,23 @@
 }
 
 .best-friends-container {
-  background-image: url('./images/2017-01-22_14-04-52_870.jpeg');
+  /*background-image: url('./images/2017-01-22_14-04-52_870.jpeg');*/
 }
 
 .proposed-container {
-  background-image: url('./images/2017-01-22_14-04-52_870.jpeg');
+  /*background-image: url('./images/2017-01-22_14-04-52_870.jpeg');*/
 }
 
 .said-yes-container {
-  background-image: url('./images/2017-01-22_14-04-52_870.jpeg');
+  /*background-image: url('./images/2017-01-22_14-04-52_870.jpeg');*/
 }
 
 .date-container {
-  background-image: url('./images/2017-01-22_14-04-52_870.jpeg');
+  /*background-image: url('./images/2017-01-22_14-04-52_870.jpeg');*/
 }
 
 .where-container {
-  background-image: url('./images/2017-01-24_23-54-51_000.jpeg');
+  /*background-image: url('./images/2017-01-24_23-54-51_000.jpeg');*/
 }
 
 .story-text {
@@ -60,8 +60,7 @@ img.modal-image {
 .image-library {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 30px;
 }
 
 .img-library {
@@ -181,8 +180,17 @@ p.gangName {
 .groomsmen {
   margin-top: 30px;
 }
+
 p.gangDescription {
   margin-right: 10px;
   font-size: 14px;
   font-weight: 300;
+}
+
+.portrait {
+  margin-right: 20px;
+}
+
+img.orientimg {
+  image-orientation: from-image;
 }

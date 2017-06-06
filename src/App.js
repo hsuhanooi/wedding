@@ -9,8 +9,8 @@ import When from './views/When';
 import Crew from './views/Crew';
 import Registry from './views/Registry';
 import Rsvp from './views/Rsvp';
-
-import LogoImg from './images/2017-01-24_23-54-51_000.jpeg';
+import Accomodations from './views/Accomodations'
+import Activities from './views/Activities'
 
 function MainLayout({ children }) {
     return (
@@ -25,8 +25,10 @@ function MainLayout({ children }) {
             <li role="presentation"><Link to='/'>OUR STORY</Link></li>
             <li role="presentation"><Link className="" to='/crew'>THE CREW</Link></li>
             <li role="presentation"><Link to='/when'>WHEN & WHERE</Link></li>
+            <li role="presentation"><Link to='/accommodations'>ACCOMMODATIONS</Link></li>
             <li role="presentation"><Link className="" to='/registry'>REGISTRY</Link></li>
             <li role="presentation"><Link className="" to='/rsvp'>RSVP</Link></li>
+            <li role="presentation"><Link className="" to='/activities'>ACTIVITIES & RESTAURANTS</Link></li>
           </ul>
         </div>
         {children}
@@ -42,6 +44,8 @@ const Root = ({store}) => (
         <Route path="/when" component={When} />
         <Route path="/registry" component={Registry} />
         <Route path="/rsvp" component={Rsvp} />
+        <Route path="/accommodations" component={Accomodations} />
+        <Route path="/activities" component={Activities} />
     </Route>
   </Router>
 );

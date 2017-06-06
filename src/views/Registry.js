@@ -10,8 +10,6 @@ class Registry extends Component {
               We are registered at <a href="https://www.honeyfund.com/wedding/hannylovesyu" target="_window">HoneyFund</a>.
             </h3>
             <div className="text-left">
-              <p className="story-middle-text">
-                Hello friends and family,</p>
 <p>We are honored you will share in our special day.</p>
 <p>We're lucky to already have a home full of everything we need, so please enjoy browsing our <a href="https://www.honeyfund.com/wedding/hannylovesyu" target="_window">HoneyFund</a> wish list, where you can contribute to our dream honeymoon!</p>
 <p>Thank you, and we can't wait to see you on our big day!</p>

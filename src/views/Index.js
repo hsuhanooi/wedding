@@ -2,8 +2,6 @@ import Modal from 'react-modal';
 import React, { Component } from 'react';
 import logo from '../logo.svg';
 
-import LogoImg from '../images/2017-01-24_23-54-51_000.jpeg';
-
 function OurStory(props) {
   return (
     <div className="our-story">
@@ -57,23 +55,23 @@ class App extends Component {
   }
 
   render() {
-    let modal = <Modal
-          isOpen={this.state.modalIsOpen}
-          onAfterOpen={this.afterOpenModal}
-          onRequestClose={this.closeModal}
-          contentLabel="Picture"
-        >
+    // let modal = <Modal
+    //       isOpen={this.state.modalIsOpen}
+    //       onAfterOpen={this.afterOpenModal}
+    //       onRequestClose={this.closeModal}
+    //       contentLabel="Picture"
+    //     >
 
-          <div className="modal-caption float-left">
-            <p>Picture Caption</p>
-          </div>
-          <button onClick={this.closeModal} type="button" className="modal-close float-right btn btn-default">
-            <span className="glyphicon glyphicon-remove" aria-hidden="true"></span>
-          </button>
-          <div className="modal-div">
-            <img src={LogoImg} className="modal-image" />
-          </div>
-        </Modal>
+    //       <div className="modal-caption float-left">
+    //         <p>Picture Caption</p>
+    //       </div>
+    //       <button onClick={this.closeModal} type="button" className="modal-close float-right btn btn-default">
+    //         <span className="glyphicon glyphicon-remove" aria-hidden="true"></span>
+    //       </button>
+    //       <div className="modal-div">
+    //         <img src={LogoImg} className="modal-image" />
+    //       </div>
+    //     </Modal>
 
     return (
       <div>

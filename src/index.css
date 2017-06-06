@@ -54,7 +54,7 @@ a.logo:hover {
 }
 
 p.time {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 p.location {
@@ -68,5 +68,50 @@ p.location {
 
 div.location {
   height: 160px;
-  margin-left: 20px;
+}
+
+.location-info {
+  align-items: center;
+  justify-content: center;
+}
+
+.ceremony {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.ceremony-tip {
+  margin-top: 12px;
+}
+
+.accommodations {
+  max-width: 800px;
+}
+
+.marriott {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.accommodation-ceremony {
+  margin-top: 20px;
+}
+
+.activity-section {
+  margin-top: 30px;
+}
+
+.activity-section > p {
+  margin-bottom: 16px;
+}
+
+span.activity-name {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+p.activity-tag {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }

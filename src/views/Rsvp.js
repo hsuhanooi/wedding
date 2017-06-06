@@ -20,7 +20,7 @@ class Rsvp extends Component {
             <h2>FAQ</h2>
             <div className="question-div">
               <p className="question"><legend>Are children and babies invited?</legend></p>
-              <p className="answer">Family of the bride and groom are invited. We'd like to encourage our friends to party and dance into the wee hours with us without having to worry about little eyes and ears, so we politely request for a mostly-adult only event. However, we understand if you are unable to secure a babysitter or if you have an infant, and of course, we'd still love to have you with us. Please RSVP for your baby or kid(s) if they are attending.</p>
+              <p className="answer">Family of the bride and groom are invited. We'd like to encourage our friends to party and dance all night with us without having to worry about little eyes and ears, so we politely request for a mostly-adult only event. However, we understand if you are unable to secure a babysitter or if you have an infant, and of course, we'd still love to have you with us. Please RSVP for your baby or kid(s) if they are attending.</p>
             </div>
             <div className="question-div">
               <p className="question"><legend>Can I bring a date?</legend></p>

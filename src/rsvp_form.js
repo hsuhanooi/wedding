@@ -4,7 +4,7 @@ import request from 'superagent'
 function Confirmation(props) {
   const showSuccess = props.showSuccess;
   if (showSuccess) {
-    return <div className="form-dialog has-success">Thanks for letting us know!</div>;
+    return <div className="form-dialog has-success">Your RSVP has been received. Thank you.</div>;
   }
   return null;
 }

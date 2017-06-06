@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'react-router';
 
-import LogoImg from '../images/2017-01-24_23-54-51_000.jpeg';
-import OtherImg from '../images/2017-01-22_14-04-52_870.jpeg'
-
 class When extends Component {
   render() {
     return (
@@ -18,14 +15,14 @@ class When extends Component {
             <p className="story-middle-text">
               SATURDAY, AUGUST 19, 2017
             </p>
-            <p className="time">
-              TIME: TBD
-            </p>
-            <div className="location-info centered">
-              <div className="ceremony location">
+            <div className="location-info">
+              <div className="ceremony">
                 <h4>
                   Ceremony
                 </h4>
+                <p className="time">
+                  3:00pm
+                </p>
                 <p className="location">
                   Grieg Garden at the<br/>
                   University of Washington
@@ -42,6 +39,7 @@ class When extends Component {
                   <a target="_blank" href='https://www.google.com/maps/place/Grieg+Garden/@47.6561909,-122.3066153,15z/data=!4m5!3m4!1s0x0:0x5d9e020c09e1ee7c!8m2!3d47.6561909!4d-122.3066153'>
                     Location on Campus
                   </a>
+                  <p className="ceremony-tip">The ceremony will take place on grass. <br/>We suggest wearing your cutest flats to the ceremony and<br/> saving your fashionable heels for the reception and dancing afterwards.</p>
                 </div>
               </div>
  
@@ -49,6 +47,10 @@ class When extends Component {
                 <h4>
                   Cocktails & Reception
                 </h4>
+                <p className="time">
+                  5:00pm
+                </p>
+
                 <p className="location">
                   The Foundry by Herban Feast (SODO)
                 </p>
