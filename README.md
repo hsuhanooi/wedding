@@ -1,3 +1,14 @@
+## HH Instructions
+
+1. Clone repo.
+2. `npm install`.
+3. `pip install -r requirements.txt`
+4. `honcho start`
+5. See website at http://localhost:5000.
+6. Deploy using `./deploy.sh`.
+7. Then log into machine and run `honcho -f Procfile.prod start`.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
