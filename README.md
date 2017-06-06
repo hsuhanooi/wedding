@@ -1,7 +1,7 @@
 ## HH Instructions
 
 1. Clone repo.
-2. `npm install`.
+2. `npm install && npm run build`.
 3. `pip install -r requirements.txt`
 4. `honcho start`
 5. See website at http://localhost:5000.
