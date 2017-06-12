@@ -1,2 +1,2 @@
 web: PORT=8000 node src/express.js
-backend: RSVP_FILE=/root/rsvps.json NODE_PROXY="http://localhost:8000" PORT=80 python python/backend.py
+backend: RSVP_FILE=/root/rsvps.json NODE_PROXY="http://localhost:8000" PYTHONPATH=./python gunicorn -w 4 -b 0.0.0.0:80 backend:app
