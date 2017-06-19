@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import LinhImg from '../images/TinaLinh.JPG'
 import GinaImg from '../images/TinaGina.JPG'
 import JenImg from '../images/TinaJenN.JPG'
-import ShteenImg from '../images/TinaShteen.JPG'
+import ShteenImg from '../images/TinaShteen.jpg'
 
 import DanielImg from '../images/daniel.JPG'
 import BmaImg from '../images/bma.JPG'
