@@ -15,13 +15,13 @@ import Activities from './views/Activities'
 function MainLayout({ children }) {
     return (
       <div className="App">
-        <div className="App-header">
-          <div className="logo float-left">
+        <div className="header">
+          <div className="logo pull-left">
             <Link to='/' className="logo">
               <span className="logo">TINA AND HSU HAN</span>
             </Link>
           </div>
-          <ul className="nav nav-pills float-right">
+          <ul className="nav navbar-nav pull-right">
             <li role="presentation"><Link to='/'>OUR STORY</Link></li>
             <li role="presentation"><Link className="" to='/crew'>THE CREW</Link></li>
             <li role="presentation"><Link to='/when'>WHEN & WHERE</Link></li>
