@@ -18,6 +18,7 @@ h1 {
   font-weight: 300;
   line-height: 40px;
   letter-spacing: 2px;
+  margin: 0 0 30px;
 }
 
 h4 {
@@ -39,6 +40,10 @@ h4 {
   font-size: 18px;
   line-height: 50px;
   text-transform: uppercase;
+}
+
+a {
+  color: #2196F3;
 }
 
 a.logo {
@@ -79,6 +84,10 @@ a.logo:hover {
   justify-content: center;
 }
 
+p.subtitle {
+  margin-top: -20px;
+}
+
 p.time {
   margin-bottom: 10px;
 }
@@ -112,10 +121,6 @@ div.location {
 
 .ceremony-tip {
   margin-top: 12px;
-}
-
-.accommodations {
-  max-width: 800px;
 }
 
 .marriott {
