@@ -18,7 +18,7 @@ function MainLayout({ children }) {
         <div className="header">
           <div className="logo pull-left">
             <Link to='/' className="logo">
-              <span className="logo">TINA AND HSU HAN</span>
+              <span className="logo">TINA & HSU HAN</span>
             </Link>
           </div>
           <ul className="nav navbar-nav pull-right">
