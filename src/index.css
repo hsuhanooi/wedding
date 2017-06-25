@@ -137,7 +137,9 @@ div.location {
 }
 
 .activity-section {
-  margin-top: 30px;
+  padding: 0 0 40px;
+  margin: 0 0 60px;
+  border-bottom: 1px solid #efefef;
 }
 
 .activity-section > p {
@@ -145,7 +147,6 @@ div.location {
 }
 
 span.activity-name {
-  font-weight: 700;
   text-decoration: underline;
 }
 
