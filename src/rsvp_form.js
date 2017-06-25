@@ -81,77 +81,111 @@ class RsvpForm extends React.Component {
         <Confirmation showSuccess={this.state.showSuccess} />
         <ErrorDialog showErrors={this.state.showErrors} />
         <form onSubmit={this.handleSubmit} action='/rsvp' method='post'>
-          <div>
-            <label className="label-name">Name *</label>
-          </div>
 
-          <div className="flex">
-            <div className="form-group half-width first-name">
-              <input type="text" name="firstName" ref={(firstName) => this.firstName = firstName} className="form-control input-name" id="first-name"/>
-              <small id="firstNameHelp" className="form-text text-muted">First Name</small>
+          <div className="row">
+            <div className="flex">
+
+              <div className="col-md-6">
+                <div className="form-group first-name">
+                   <label for="first-name">First name</label>
+                  <input type="text" name="firstName" ref={(firstName) => this.firstName = firstName} className="form-control input-name" id="first-name"/>
+                </div>
+              </div>
+
+              <div className="col-md-6">
+                <div className="form-group">
+                  <label for="last-name">Last name</label>
+                  <input type="text" name="lastName" ref={(lastName) => this.lastName = lastName} className="form-control" id="last-name" />
+                </div>
+              </div>
+
             </div>
-            <div className="form-group half-width">
-              <input type="text" name="lastName" ref={(lastName) => this.lastName = lastName} className="form-control" id="last-name" />
-              <small id="lastNameHelp" className="form-text text-muted">Last Name</small>
+          </div>
+
+          <br/>
+
+          <div className="row">
+
+            <div className="respond">
+              <div className="col-md-6">
+                <fieldset className="form-group">
+                  <label className="label-coming">Will you be attending? *</label>
+                  <div className="form-check">
+                    <label className="form-check-label">
+                      <input type="radio" className="form-check-input" name="comingRadio" id="comingyes" value="yes" onChange={this.handleComingChange} checked={this.state.coming === 'yes'}/>
+                      &nbsp;Yes
+                    </label>
+                  </div>
+                  <div className="form-check">
+                    <label className="form-check-label">
+                      <input type="radio" className="form-check-input" name="comingRadio" id="comingno" value="no" onChange={this.handleComingChange} checked={this.state.coming === 'no'}/>
+                      &nbsp;No
+                    </label>
+                  </div>
+                </fieldset>
+              </div>
+            </div>
+
+            <div className="foodpref">
+              <div className="col-md-6">
+                <fieldset className="form-group">
+                  <label className="label-foodpref">If attending, please select an entree *</label>
+                  <div className="form-check">
+                    <label className="form-check-label">
+                      <input type="radio" className="form-check-input" name="foodprefRadio" id="foodprefsalmon" value="salmon" onChange={this.handleFoodprefChange} checked={this.state.foodpref === 'salmon'}/>
+                      &nbsp;Salmon
+                    </label>
+                  </div>
+                  <div className="form-check">
+                    <label className="form-check-label">
+                      <input type="radio" className="form-check-input" name="foodprefRadio" id="foodprefbeef" value="beef" onChange={this.handleFoodprefChange} checked={this.state.foodpref === 'beef'}/>
+                      &nbsp;Beef
+                    </label>
+                  </div>
+                  <div className="form-check">
+                    <label className="form-check-label">
+                      <input type="radio" className="form-check-input" name="foodprefRadio" id="foodprefVeg" value="vegetarian" onChange={this.handleFoodprefChange} checked={this.state.foodpref === 'vegetarian'}/>
+                      &nbsp;Vegetarian
+                    </label>
+                  </div>
+                </fieldset>
+              </div>
+            </div>
+
+          </div>
+
+          <br/>
+
+          <div className="row">
+            <div className="col-md-12">
+              <div className="form-group allergies">
+                <label className="label-allergies">Do you have any food allergies we should be aware of?</label>
+                <textarea name="allergies" className="form-control" ref={(allergies) => this.allergies = allergies} id="textareaallergies" rows="3"></textarea>
+              </div>
             </div>
           </div>
-          <div className="respond">
-            <fieldset className="form-group">
-              <label className="label-coming">Will you be attending? *</label>
-              <div className="form-check">
-                <label className="form-check-label">
-                  <input type="radio" className="form-check-input" name="comingRadio" id="comingyes" value="yes" onChange={this.handleComingChange} checked={this.state.coming === 'yes'}/>
-                  &nbsp;Yes
-                </label>
-              </div>
-              <div className="form-check">
-              <label className="form-check-label">
-                  <input type="radio" className="form-check-input" name="comingRadio" id="comingno" value="no" onChange={this.handleComingChange} checked={this.state.coming === 'no'}/>
-                  &nbsp;No
-                </label>
-              </div>
-            </fieldset>
-          </div>
 
-          <div className="foodpref">
-            <fieldset className="form-group">
-              <label className="label-foodpref">If attending, please select an entree *</label>
-              <div className="form-check">
-                <label className="form-check-label">
-                  <input type="radio" className="form-check-input" name="foodprefRadio" id="foodprefsalmon" value="salmon" onChange={this.handleFoodprefChange} checked={this.state.foodpref === 'salmon'}/>
-                  &nbsp;Salmon
-                </label>
-              </div>
-              <div className="form-check">
-                <label className="form-check-label">
-                  <input type="radio" className="form-check-input" name="foodprefRadio" id="foodprefbeef" value="beef" onChange={this.handleFoodprefChange} checked={this.state.foodpref === 'beef'}/>
-                  &nbsp;Beef
-                </label>
-              </div>
+          <br/>
 
-              <div className="form-check">
-                <label className="form-check-label">
-                  <input type="radio" className="form-check-input" name="foodprefRadio" id="foodprefVeg" value="vegetarian" onChange={this.handleFoodprefChange} checked={this.state.foodpref === 'vegetarian'}/>
-                  &nbsp;Vegetarian
-                </label>
+          <div className="row">
+            <div className="col-md-12">
+              <div className="form-group kids">
+                <label className="label-kids">Please list the name of children and babies in attendance</label>
+                <input type="text" className="form-control" ref={(kids) => this.kids = kids} name="kids" id="textkids" />
+                <small id="kidsmealhelp" className="form-text text-muted">See FAQ below before entering.</small>
               </div>
-            </fieldset>
-          </div>
-
-          <div className="form-group allergies">
-            <label className="label-allergies">Do you have any food allergies we should be aware of?</label>
-            <textarea name="allergies" className="form-control" ref={(allergies) => this.allergies = allergies} id="textareaallergies" rows="3"></textarea>
-          </div>
-
-          <div className="form-group kids">
-            <label className="label-kids">Please list the name of children and babies in attendance (see FAQ below before entering):</label>
-            <div className="form-group">
-              <input type="text" className="form-control" ref={(kids) => this.kids = kids} name="kids" id="textkids" />
             </div>
-            <label className="label-kidsmeals">We are offering kids' meals for children under 12. Please enter the number of kids' meals you would like:</label>
-            <div className="form-group">
-              <input type="text" className="form-control" ref={(kidsmeals) => this.kidsmeals = kidsmeals} name="kidsmeals" id="textkidsmeals" />
-              <small id="kidsmealhelp" className="form-text text-muted">For children 12 or older, please RSVP for them separately to select meal preferences.</small>
+          </div>
+
+          <br/>
+
+          <div className="row">
+            <div className="col-md-12">
+              <div className="form-group">
+                <label className="label-kidsmeals">We are offering kids' meals for children under 12. Please enter the number of kids' meals you would like:</label>
+                <input type="text" className="form-control" ref={(kidsmeals) => this.kidsmeals = kidsmeals} name="kidsmeals" id="textkidsmeals" />
+                <small id="kidsmealhelp" className="form-text text-muted">For children 12 or older, please RSVP for them separately to select meal preferences.</small>
+              </div>
             </div>
           </div>
 
