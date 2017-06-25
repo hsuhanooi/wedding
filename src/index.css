@@ -9,12 +9,19 @@ p {
   margin-bottom: 30px;
 }
 
-h1 {
+h1, h2, h3, .header {
   font-family: 'Lato', 'Helvetica Neue', Arial;
+}
+
+h1 {
   font-size: 30px;
   font-weight: 300;
   line-height: 40px;
   letter-spacing: 2px;
+}
+
+h4 {
+  font-weight: bold;
 }
 
 .App {
@@ -22,7 +29,6 @@ h1 {
 }
 
 .header {
-  font-family: 'Lato', 'Helvetica Neue', Arial;
   padding: 15px 0;
   margin-bottom: 50px;
   letter-spacing: 2px;
@@ -80,6 +86,10 @@ p.time {
 p.location {
   font-weight: 900;
   text-decoration: underline;
+}
+
+#when .title {
+  margin-bottom: 70px;
 }
 
 .nav-pills > li > a.greyed-out {
