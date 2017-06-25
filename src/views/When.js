@@ -6,14 +6,11 @@ class When extends Component {
     return (
       <div id="when">
 
-        <div className="centered container story-container our-story-container">
-        </div>
-
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center title">
               <h1>Ceremony and Reception</h1>
-              <p>Saturday, August 19, 2017</p>
+              <p className="subtitle">Saturday, August 19, 2017</p>
             </div>
           </div>
           <div className="row">
