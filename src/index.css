@@ -1,12 +1,61 @@
-.App {
-  text-align: center;
+body {
+  font-family: Georgia;
+  font-size: 16px;
+  line-height: 30px;
+  color: #2C2D33;
 }
 
-.App-header {
-  background-color: white;
-  height: 80px;
-  padding: 20px;
-  color: black;
+p {
+  margin-bottom: 30px;
+}
+
+h1, h2, h3, .header {
+  font-family: 'Lato', 'Helvetica Neue', Arial;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 2px;
+  margin: 0 0 30px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+label {
+  font-weight: normal;
+}
+
+.App {
+  margin-bottom: 150px;
+}
+
+.header {
+  padding: 15px 0;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+  overflow: hidden;
+}
+
+.logo {
+  font-size: 18px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+a {
+  color: #2196F3;
+}
+
+a.logo {
+  color: #2C2D33;
+}
+
+a.logo:hover {
+  text-decoration: none;
 }
 
 .float-left {
@@ -17,16 +66,19 @@
   float: right;
 }
 
-.nav-pills > li > a {
-  color: black;
+.navbar-nav > li > a {
+  color: #2C2D33;
   font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .story-container {
-  background-size:     cover; 
+  background-size:     2048px 1367px; 
   background-repeat:   no-repeat;
   background-position: center center;  
-  height: 1000px;
+  margin: -50px 0 85px;
+  height: 800px;
   width: 100%;
 }
 
@@ -36,21 +88,8 @@
   justify-content: center;
 }
 
-body {
-  font-family: 'Overpass';font-size: 14px;
-}
-
-.logo {
-  font-size: 16px;
-  margin-top: 6px;
-}
-
-a.logo {
-  color: black;
-}
-
-a.logo:hover {
-  text-decoration: none;
+p.subtitle {
+  margin-top: -20px;
 }
 
 p.time {
@@ -60,6 +99,10 @@ p.time {
 p.location {
   font-weight: 900;
   text-decoration: underline;
+}
+
+#when .title {
+  margin-bottom: 70px;
 }
 
 .nav-pills > li > a.greyed-out {
@@ -84,10 +127,6 @@ div.location {
   margin-top: 12px;
 }
 
-.accommodations {
-  max-width: 800px;
-}
-
 .marriott {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -98,7 +137,9 @@ div.location {
 }
 
 .activity-section {
-  margin-top: 30px;
+  padding: 0 0 40px;
+  margin: 0 0 60px;
+  border-bottom: 1px solid #efefef;
 }
 
 .activity-section > p {
@@ -106,7 +147,6 @@ div.location {
 }
 
 span.activity-name {
-  font-weight: 700;
   text-decoration: underline;
 }
 

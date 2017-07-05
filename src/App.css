@@ -110,16 +110,20 @@ img.modal-image {
 }
 
 .questions {
-  margin-top: 40px;
+  margin-top: 120px;
+}
+
+.questions h2 {
+  margin-bottom: 30px;
 }
 
 .question-div {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 p.question {
-  font-size: 16px;
   font-weight: 700;
+  margin: 0;
 }
 
 p.answer {
@@ -161,11 +165,6 @@ span.underline {
   border-bottom: 1px solid;
 }
 
-.our-story-head {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
 .our-story-text > p {
   font-size: 16px;
   margin-top: 30px;
@@ -174,6 +173,8 @@ span.underline {
 p.gangName {
   font-size: 16px;
   font-weight: 700;
+  margin-bottom: 10px;
+  font-family: 'Lato', 'Helvetica Neue', Arial;
 }
 
 .gangImg {
@@ -186,12 +187,6 @@ p.gangName {
 
 .groomsmen {
   margin-top: 30px;
-}
-
-p.gangDescription {
-  margin-right: 10px;
-  font-size: 14px;
-  font-weight: 300;
 }
 
 .portrait {

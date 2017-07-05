@@ -15,21 +15,23 @@ import Activities from './views/Activities'
 function MainLayout({ children }) {
     return (
       <div className="App">
-        <div className="App-header">
-          <div className="logo float-left">
-            <Link to='/' className="logo">
-              <span className="logo">TINA AND HSU HAN</span>
-            </Link>
+        <div className="container">
+          <div className="header">
+            <div className="logo pull-left">
+              <Link to='/' className="logo">
+                <span className="logo">TINA & HSU HAN</span>
+              </Link>
+            </div>
+            <ul className="nav navbar-nav pull-right">
+              <li role="presentation"><Link to='/'>OUR STORY</Link></li>
+              <li role="presentation"><Link className="" to='/crew'>THE CREW</Link></li>
+              <li role="presentation"><Link to='/when'>WHEN & WHERE</Link></li>
+              <li role="presentation"><Link to='/accommodations'>ACCOMMODATIONS</Link></li>
+              <li role="presentation"><Link className="" to='/registry'>REGISTRY</Link></li>
+              <li role="presentation"><Link className="" to='/rsvp'>RSVP</Link></li>
+              <li role="presentation"><Link className="" to='/activities'>ACTIVITIES & RESTAURANTS</Link></li>
+            </ul>
           </div>
-          <ul className="nav nav-pills float-right">
-            <li role="presentation"><Link to='/'>OUR STORY</Link></li>
-            <li role="presentation"><Link className="" to='/crew'>THE CREW</Link></li>
-            <li role="presentation"><Link to='/when'>WHEN & WHERE</Link></li>
-            <li role="presentation"><Link to='/accommodations'>ACCOMMODATIONS</Link></li>
-            <li role="presentation"><Link className="" to='/registry'>REGISTRY</Link></li>
-            <li role="presentation"><Link className="" to='/rsvp'>RSVP</Link></li>
-            <li role="presentation"><Link className="" to='/activities'>ACTIVITIES & RESTAURANTS</Link></li>
-          </ul>
         </div>
         {children}
       </div>
