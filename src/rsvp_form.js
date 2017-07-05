@@ -139,13 +139,13 @@ class RsvpForm extends React.Component {
                   <div className="form-check">
                     <label className="form-check-label">
                       <input type="radio" className="form-check-input" name="foodprefRadio" id="foodprefbeef" value="beef" onChange={this.handleFoodprefChange} checked={this.state.foodpref === 'beef'}/>
-                      &nbsp;Beef
+                      &nbsp;Beef Tenderloin
                     </label>
                   </div>
                   <div className="form-check">
                     <label className="form-check-label">
                       <input type="radio" className="form-check-input" name="foodprefRadio" id="foodprefVeg" value="vegetarian" onChange={this.handleFoodprefChange} checked={this.state.foodpref === 'vegetarian'}/>
-                      &nbsp;Vegetarian
+                      &nbsp;Cauliflower 'Cous Cous' Stuffed Bell Pepper (Vegetarian)
                     </label>
                   </div>
                 </fieldset>
@@ -182,7 +182,7 @@ class RsvpForm extends React.Component {
           <div className="row">
             <div className="col-md-12">
               <div className="form-group">
-                <label className="label-kidsmeals">We are offering kids' meals for children under 12. Please enter the number of kids' meals you would like:</label>
+                <label className="label-kidsmeals">We are offering kids' meals (mac-n-cheese) for children under 12. Please enter the number of kids' meals you would like:</label>
                 <input type="text" className="form-control" ref={(kidsmeals) => this.kidsmeals = kidsmeals} name="kidsmeals" id="textkidsmeals" />
                 <small id="kidsmealhelp" className="form-text text-muted">For children 12 or older, please RSVP for them separately to select meal preferences.</small>
               </div>
